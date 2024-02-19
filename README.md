@@ -16,7 +16,7 @@ env: "production",
 hosted_button_id: "APZNDKV6SCG20"
 ```
 
-## PAYPAL DONATE (SANDBOX)\*\*
+## PAYPAL DONATE (SANDBOX)
 
 **URL:**
 https://www.sandbox.paypal.com/donate/buttons/manage
@@ -32,10 +32,6 @@ env: "sandbox",
 hosted_button_id: "QYME3NYDVFASV"
 ```
 
-### DOCS:
-
-https://developer.paypal.com/sdk/donate
-
 ### EXTRA ALTERNATIVE
 
 In addition to using the javascript SDK to implement PayPal donation, you can also directly use the link from your PayPal donation page to share it directly on your social networks or use it as a referral link in an html hyperlink.
@@ -45,3 +41,9 @@ EXAMPLE:
 ```html
 <a href="YOUR_PAYPAL_DONATION_URL"> Sponsor the project </a>
 ```
+
+You can configure how your donation page will look from the administration panel of your PayPal account
+
+### DOCS:
+
+https://developer.paypal.com/sdk/donate
